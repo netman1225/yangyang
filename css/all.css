@@ -5,7 +5,12 @@ nav.navbar{
     			width: 720px;
     			height: 540px;
 			}
-			.swiper-slide .img{
+.swiper-slide .img{
 				width: 720px;
     			height: 540px;
 			}
+.image-link{
+				margin: 5px;				
+				border:2px solid blue;
+				display: inline-block;
+			}			
