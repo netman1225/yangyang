@@ -1,3 +1,11 @@
 nav.navbar{
 	background: pink !important;
 }
+.swiper-container {
+    			width: 720px;
+    			height: 540px;
+			}
+			.swiper-slide .img{
+				width: 720px;
+    			height: 540px;
+			}
