@@ -25,4 +25,14 @@ nav.navbar{
 				height: 100%;*/
 				overflow: hidden;
 				
-			}			
+			}
+#cpage{
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.boxss{
+	font-size: 23px;
+	border: 2px blue double;
+	text-align: center;
+}			

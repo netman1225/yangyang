@@ -3,9 +3,10 @@ window.onload=function(){
 	var opgdown=document.getElementById('pgdown');
 	var oimg=document.getElementsByClassName('image');
 	var oimglink=document.getElementsByClassName('image-link');
+	var ocpage=document.getElementById('cpage');
 	var pagenum=1;
 	opgdown.onclick=function(){
-		if(pagenum<9){
+		if(pagenum<10){
 			pagenum++;
 			var imgsrc=(pagenum-1)*6;
 			for(i=1; i<=6 ; i++){
@@ -13,13 +14,8 @@ window.onload=function(){
 				oimg[i-1].getAttributeNode('src').value="img/"+imgsrc+".jpg";
 				oimglink[i-1].getAttributeNode('href').value="img/"+imgsrc+".jpg";
 			}
-//			if(pagenum==7){
-//				oimglink[8].style.display="none";
-//				oimglink[7].style.display="none";
-//				oimglink[6].style.display="none";
-//			}		
-			
-			
+			ocpage.innerHTML=pagenum+"/10";
+
 		}
 			
 
@@ -27,16 +23,15 @@ window.onload=function(){
 	
 	opgup.onclick=function(){		
 		if(pagenum>1){
-//			oimglink[8].style.display="inline-block";
-//			oimglink[7].style.display="inline-block";
-//			oimglink[6].style.display="inline-block";
 			pagenum--;
 			var imgsrc=(pagenum-1)*6;
 			for(i=1; i<=6 ; i++){
 				imgsrc++;
 				oimg[i-1].getAttributeNode('src').value="img/"+imgsrc+".jpg";
 				oimglink[i-1].getAttributeNode('href').value="img/"+imgsrc+".jpg";
-			}		
+			}
+			ocpage.innerHTML=pagenum+"/10";
+		
 		}
 	
 	}
