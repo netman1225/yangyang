@@ -31,16 +31,16 @@ nav.navbar{
 }
 
 .game{
-	font-size: 20px; 
+	font-size: 16px; 
 	color: orangered;
-	font-weight: 800;
+	font-weight: 700;
 	height: 70px !important;
 	line-height: 70px !important;
 }
 
 .game-content{
 	background: url(../img/34.jpg) center center;
-	background-size: 250px 250px; 
+	background-size: 200px 200px; 
 	background-repeat:no-repeat;
 	
 	
