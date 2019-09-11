@@ -3,7 +3,7 @@ window.onload=function(){
 	var opgdown=document.getElementById('pgdown');
 	var oimg=document.getElementsByClassName('image');
 	var oimglink=document.getElementsByClassName('image-link');
-	var ocpage=document.getElementById('cpage');
+	var ocpage=document.getElementById('cpage');	
 	var pagenum=1;
 	opgdown.onclick=function(){
 		if(pagenum<10){
@@ -34,6 +34,7 @@ window.onload=function(){
 		
 		}
 	
-	}
+	}	
+	
 	
 }

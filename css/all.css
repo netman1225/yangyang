@@ -28,4 +28,24 @@ nav.navbar{
 	font-size: 23px;
 	border: 2px blue double;
 	text-align: center;
-}			
+}
+
+.game{
+	font-size: 20px; 
+	color: orangered;
+	font-weight: 800;
+	height: 70px !important;
+	line-height: 70px !important;
+}
+
+.game-content{
+	background: url(../img/34.jpg) center center;
+	background-size: 250px 250px; 
+	background-repeat:no-repeat;
+	
+	
+}
+
+.game-select{
+	background-color: yellow;
+}		
