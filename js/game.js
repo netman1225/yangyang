@@ -10,7 +10,7 @@ window.onload=function(){
 		var step_count=0;
 		var timer = null;
 		if(timer == null){
-			timer = setInterval(spin,150);
+			timer = setInterval(spin,350);
 		}
 		function spin(){
 					step_count++;
